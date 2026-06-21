@@ -29,14 +29,16 @@ export const siteConfig: SiteConfig = {
 		"静态博客",
 	],
 
-	// 主题色
+	// 主题色 - 莫兰迪灰紫(275)，低饱和度融合赛博朋克废土美学
 	themeColor: {
-		// 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		hue: 165,
-		// 是否对访问者隐藏主题色选择器
-		fixed: false,
-		// 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
-		defaultMode: "system",
+		// 莫兰迪色系 + 赛博朋克废土风格
+		// 色相 275: 灰紫/暮紫色，莫兰迪调性的暗淡紫罗兰
+		// 兼具莫兰迪的朦胧高级感与赛博朋克的霓虹暗夜氛围
+		hue: 275,
+		// 锁定主题色，保持莫兰迪+废土风格的视觉一致性
+		fixed: true,
+		// 默认暗色模式，契合赛博朋克废土的美学基调
+		defaultMode: "dark",
 	},
 
 	// 页面整体宽度（单位：rem）
@@ -44,12 +46,12 @@ export const siteConfig: SiteConfig = {
 	// 在使用单侧栏边栏时，建议调低一些宽度以获得更好的视觉效果。
 	pageWidth: 100,
 
-	// 网站Card样式配置
+	// 网站Card样式配置 - 融合莫兰迪灰紫与赛博朋克废土风格
 	card: {
-		// 是否开启卡片边框和阴影，开启后让网站更有立体感
+		// 开启卡片边框和阴影，增强废土风格的层次感
 		border: true,
-		// 是否让卡片风格跟随主题色相
-		followTheme: false,
+		// 卡片背景跟随主题色相，统一莫兰迪灰紫色调
+		followTheme: true,
 	},
 
 	// Favicon 配置
@@ -83,8 +85,8 @@ export const siteConfig: SiteConfig = {
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
 		menuAlign: "center",
-		// 导航栏图标和标题是否跟随主题色
-		followTheme: false,
+		// 导航栏图标和标题是否跟随主题色（莫兰迪灰紫）
+		followTheme: true,
 		// 导航栏是否固定在顶部并始终可见
 		stickyNavbar: true,
 	},

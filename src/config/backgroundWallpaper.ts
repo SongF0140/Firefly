@@ -70,8 +70,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
-		// 横幅文字遮罩暗度，0-1之间，值越大越暗
-		dimOpacity: 0.2,
+		// 横幅文字遮罩暗度，0-1之间，值越大越暗（废土风格需要更强的氛围暗度）
+		dimOpacity: 0.45,
 		// 多视频播放模式："order" 顺序循环，"random" 随机切换（仅当 playerUrl 为数组时生效）
 		playerMode: "random",
 		// 主页横幅文字
@@ -80,18 +80,17 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			enable: true,
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
-			// 主页横幅主标题
-			title: "Lovely firefly!",
+			// 主页横幅主标题（赛博朋克废土风格）
+			title: "Wasteland Echo",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
-			// 主页横幅副标题
+			// 主页横幅副标题（莫兰迪色调的废土诗意）
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"在灰紫色的废墟中，萤火虫仍在低语",
+				"霓虹熄灭之后，宁古塔的暮色永存",
+				"数据荒原上的最后一场雨",
+				"赛博废土的尽头，是温柔的灰调黎明",
+				"当世界归于沉寂，色彩化作低饱和的诗",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
