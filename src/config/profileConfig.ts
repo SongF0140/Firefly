@@ -1,8 +1,8 @@
 import type { ProfileConfig } from "../types/profileConfig";
 
 export const profileConfig: ProfileConfig = {
-	// 头像 - 银狼(Silver Wolf Chimera) 主题
-	avatar: "https://aka.doubaocdn.com/s/j6BQ1weOqB",
+	// 头像 - 恩奇都(Enkidu) 微笑肖像
+	avatar: "https://wallpaperaccess.com/download/fate-enkidu-8577378",
 
 	// 名字
 	name: "ENKIDU",
