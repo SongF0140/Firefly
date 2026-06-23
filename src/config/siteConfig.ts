@@ -74,8 +74,8 @@ export const siteConfig: SiteConfig = {
 		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
 		logo: {
 			type: "url",
-			value: "https://wallpaperaccess.com/download/enkidu-3533574",
-			alt: "ENKIDU",
+			value: "https://aka.doubaocdn.com/s/j6BQ1weOqB",
+			alt: "Silver Wolf",
 		},
 		// 导航栏标题
 		title: "ENKIDU",

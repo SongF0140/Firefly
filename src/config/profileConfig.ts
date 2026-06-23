@@ -1,8 +1,8 @@
 import type { ProfileConfig } from "../types/profileConfig";
 
 export const profileConfig: ProfileConfig = {
-	// 头像 - 恩奇都(Enkidu) 主题
-	avatar: "https://wallpaperaccess.com/download/enkidu-3533778",
+	// 头像 - 银狼(Silver Wolf Chimera) 主题
+	avatar: "https://aka.doubaocdn.com/s/j6BQ1weOqB",
 
 	// 名字
 	name: "ENKIDU",
