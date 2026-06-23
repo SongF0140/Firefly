@@ -18,7 +18,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 文章及其子菜单
 	links.push({
-		name: "文章",
+		name: "札记",
 		url: "#",
 		icon: "material-symbols:article",
 		children: [
@@ -39,11 +39,11 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 留言板
 	links.push(LinkPresets.Guestbook);
 
-	// 我的及其子菜单
+	// 世界及其子菜单
 	links.push({
-		name: "我的",
+		name: "世界",
 		url: "#",
-		icon: "material-symbols:person",
+		icon: "material-symbols:public",
 		children: [
 			// 相册
 			LinkPresets.Gallery,
@@ -59,9 +59,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
-			// 打赏
-			LinkPresets.Sponsor,
-
 			// 关于页面
 			LinkPresets.About,
 		],
@@ -76,27 +73,15 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/SongF0140/Firefly",
 				external: true,
 				icon: "fa7-brands:github",
-			},
-			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
 			},
 			{
 				name: "QQ交流群",
 				url: "https://qm.qq.com/q/ZGsFa8qX2G",
 				external: true,
 				icon: "fa7-brands:qq",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
 			},
 		],
 	});
@@ -123,40 +108,33 @@ export const navBarSearchConfig: NavBarSearchConfig = {
 // ============================================================================
 export const LinkPresets: Record<string, NavBarLink> = {
 	Home: {
-		name: "主页",
+		name: "荒原",
 		url: "/",
 		icon: "material-symbols:home",
 	},
 	Archive: {
-		name: "归档",
+		name: "编年",
 		url: "/archive/",
 		icon: "material-symbols:archive",
 	},
 	Categories: {
-		name: "分类",
+		name: "领域",
 		url: "/categories/",
 		icon: "material-symbols:folder-open-rounded",
 	},
 	Tags: {
-		name: "标签",
+		name: "印记",
 		url: "/tags/",
 		icon: "material-symbols:tag-rounded",
 	},
 	Friends: {
-		name: "友链",
+		name: "羁绊",
 		url: "/friends/",
 		icon: "material-symbols:group",
 		pageKey: "friends",
 	},
-	// 打赏（已关闭）
-	// Sponsor: {
-	// 	name: "打赏",
-	// 	url: "/sponsor/",
-	// 	icon: "material-symbols:favorite",
-	// 	pageKey: "sponsor",
-	// },
 	Guestbook: {
-		name: "留言",
+		name: "低语",
 		url: "/guestbook/",
 		icon: "material-symbols:chat",
 		pageKey: "guestbook",
@@ -167,7 +145,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		icon: "material-symbols:person",
 	},
 	Bangumi: {
-		name: "番组计划",
+		name: "追番",
 		url: "/bangumi/",
 		icon: "material-symbols:movie",
 		pageKey: "bangumi",
