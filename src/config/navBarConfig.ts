@@ -148,12 +148,13 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		icon: "material-symbols:group",
 		pageKey: "friends",
 	},
-	Sponsor: {
-		name: "打赏",
-		url: "/sponsor/",
-		icon: "material-symbols:favorite",
-		pageKey: "sponsor",
-	},
+	// 打赏（已关闭）
+	// Sponsor: {
+	// 	name: "打赏",
+	// 	url: "/sponsor/",
+	// 	icon: "material-symbols:favorite",
+	// 	pageKey: "sponsor",
+	// },
 	Guestbook: {
 		name: "留言",
 		url: "/guestbook/",
