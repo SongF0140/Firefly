@@ -41,18 +41,17 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	 */
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
-	// 恩奇都(Enkidu)·天之锁主题壁纸 - 绿白发+银蓝调+神圣破碎感（使用可靠CDN直链）
+	// 恩奇都(Enkidu)·天之锁主题壁纸 - 绿白发+银蓝调（使用wallpaperaccess直链）
 	desktop: [
-		"https://images.alphacoders.com/918/918747.jpg",       // Enkidu特写·绿发 2048x967
-		"https://images.alphacoders.com/138/1387020.jpg",      // Enkidu FSF·天之锁 1920x1080
-		"https://images4.alphacoders.com/918/918747-1920x1080.jpg", // Enkidu绿发 HD
-		"https://images5.alphacoders.com/138/1387020.jpg",     // Enkidu FSF 4K
+		"https://wallpaperaccess.com/download/fate-enkidu-8577271",  // 3840x2160 Enkidu HD
+		"https://wallpaperaccess.com/download/fate-enkidu-3533598",  // Gilgamesh vs Enkidu 4K
+		"https://wallpaperaccess.com/download/fate-enkidu-8577296",  // 绿发+金链 微笑
+		"https://wallpaperaccess.com/download/fate-enkidu-8577378",  // 恩奇都肖像（与头像同源）
 	],
-		// 移动背景图片（支持单张或多张随机）
-	// 恩奇都(Enkidu)·天之锁主题竖屏壁纸（可靠CDN直链）
+	// 移动背景图片（恩奇都竖屏壁纸）
 	mobile: [
-		"https://images.alphacoders.com/918/918747.jpg",       // Enkidu特写（自适应）
-		"https://images.alphacoders.com/138/1387020.jpg",      // Enkidu FSF
+		"https://wallpaperaccess.com/download/fate-enkidu-8577277",  // 1080x2160 竖屏
+		"https://wallpaperaccess.com/download/fate-enkidu-8577432",  // 1125x2436 手机竖屏
 	],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组）
