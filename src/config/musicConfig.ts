@@ -25,14 +25,14 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// Meting API 配置
 	meting: {
 		// Meting API 地址
-		// 切换到更稳定的 API 源
-		api: "https://api.crowya.com/meting/?server=:server&type=:type&id=:id",
-		// 音乐平台：netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐
-		server: "tencent",
-	// 类型：song=单曲, playlist=歌单, album=专辑, search=搜索, artist=艺术家
+		// 使用已验证可用的 injahow API
+		api: "https://api.injahow.cn/meting/?server=:server&type=:type&id=:id",
+		// 音乐平台：netease=网易云音乐
+		server: "netease",
+	// 类型：song=单曲
 	type: "song",
-	// 歌单/专辑/单曲 ID 或搜索关键词
-	id: "004OVhHX0IG2v6",
+	// Contemplation - Melody of Sound (空灵氛围纯音乐，免费)
+	id: "1847472184",
 		// 认证 token（可选）
 		auth: "",
 		// 备用 API 配置（当主 API 失败时使用）
