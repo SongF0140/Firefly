@@ -41,25 +41,19 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	 */
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
-		// desktop: "assets/images/DesktopWallpaper/d1.avif",
-		desktop: [
-			"assets/images/DesktopWallpaper/d1.avif",
-			"assets/images/DesktopWallpaper/d2.avif",
-			"assets/images/DesktopWallpaper/d3.avif",
-			"assets/images/DesktopWallpaper/d4.avif",
-			"assets/images/DesktopWallpaper/d5.avif",
-			"assets/images/DesktopWallpaper/d6.avif",
-		],
+	// 恩奇都(Enkidu)·天之锁主题壁纸 - 绿白发+银蓝调+神圣破碎感
+	desktop: [
+		"https://wallpaperaccess.com/download/enkidu-3533575",  // 天之锁+绿发+白花（最契合）
+		"https://wallpaperaccess.com/download/enkidu-3533598",  // 吉尔伽美什vs恩奇都 4K
+		"https://wallpaperaccess.com/download/enkidu-3533655",  // Fate/strange Fake HD
+		"https://wallpaperaccess.com/download/enkidu-3533771",  // 4K Ultra HD 恩奇都
+	],
 		// 移动背景图片（支持单张或多张随机）
-		// mobile: "assets/images/MobileWallpaper/m1.avif",
-		mobile: [
-			"assets/images/MobileWallpaper/m1.avif",
-			"assets/images/MobileWallpaper/m2.avif",
-			"assets/images/MobileWallpaper/m3.avif",
-			"assets/images/MobileWallpaper/m4.avif",
-			"assets/images/MobileWallpaper/m5.avif",
-			"assets/images/MobileWallpaper/m6.avif",
-		],
+	// 恩奇都(Enkidu)·天之锁主题竖屏壁纸
+	mobile: [
+		"https://wallpaperaccess.com/download/enkidu-3533836",  // FSF恩奇都+天之锁 竖屏
+		"https://wallpaperaccess.com/download/enkidu-3533565",  // 绿发+披风 竖屏
+	],
 		// 背景视频播放地址
 		// 支持单个视频路径（字符串）或多个视频循环（数组）
 		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
