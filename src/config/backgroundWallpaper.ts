@@ -70,8 +70,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
-		// 横幅文字遮罩暗度，0-1之间，值越大越暗（恩奇都风格偏空灵神圣，暗度适中）
-		dimOpacity: 0.35,
+		// 横幅文字遮罩暗度，0-1之间（神圣破碎感：透亮但脆弱，不宜过暗）
+		dimOpacity: 0.28,
 		// 多视频播放模式："order" 顺序循环，"random" 随机切换（仅当 playerUrl 为数组时生效）
 		playerMode: "random",
 		// 主页横幅文字（恩奇都·天之锁风格）
@@ -84,13 +84,13 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			title: "Chains of Heaven",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
-			// 主页横幅副标题（恩奇都与银狼的诗意）
+			// 主页横幅副标题（恩奇都·神造兵器的神圣破碎感）
 			subtitle: [
-				"由神创造之梦境，由人编织之恐怖",
-				"银狼的嚎叫唤来了最古老的友人",
-				"回归泥土之虚无，天之锁永系天与地",
-				"在乌鲁克的荒原上，萤火仍为你低语",
-				"众神之泥塑成的兵器，却拥有了心",
+				"由神之泥塑成，却拥有了心",
+				"银狼的嚎叫，是最初也是最后的召唤",
+				"天之锁系住天地，却系不住消逝的你",
+				"回归泥土的虚无，是众神给予的慈悲",
+				"这具兵器，曾为挚友流下过眼泪",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
