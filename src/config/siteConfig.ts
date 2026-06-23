@@ -6,10 +6,10 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "𒂗𒆠𒄭 ENKIDU",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "天之锁 · Chains of Heaven",
 
 	// 站点 URL
 	site_url: "https://firefly.cuteleaf.cn",
@@ -29,15 +29,13 @@ export const siteConfig: SiteConfig = {
 		"静态博客",
 	],
 
-	// 主题色 - 莫兰迪灰紫(275)，低饱和度融合赛博朋克废土美学
+	// 主题色 - 恩奇都薄荷绿+银狼银灰（Fate/strange Fake 风格）
 	themeColor: {
-		// 莫兰迪色系 + 赛博朋克废土风格
-		// 色相 275: 灰紫/暮紫色，莫兰迪调性的暗淡紫罗兰
-		// 兼具莫兰迪的朦胧高级感与赛博朋克的霓虹暗夜氛围
-		hue: 275,
-		// 锁定主题色，保持莫兰迪+废土风格的视觉一致性
+		// 薄荷绿 155：恩奇都标志性的浅绿色长发，融合银狼的冷冽银调
+		hue: 155,
+		// 锁定主题色，保持恩奇都配色的视觉一致性
 		fixed: true,
-		// 默认暗色模式，契合赛博朋克废土的美学基调
+		// 默认暗色模式，契合天之锁的神圣肃穆氛围
 		defaultMode: "dark",
 	},
 
