@@ -6,10 +6,10 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "𒂗𒆠𒄭 ENKIDU",
+	title: "ENKIDU - Chains of Heaven",
 
 	// 站点副标题
-	subtitle: "天之锁 · Chains of Heaven",
+	subtitle: "Chains of Heaven",
 
 	// 站点 URL
 	site_url: "https://firefly.cuteleaf.cn",
